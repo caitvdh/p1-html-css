@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>opdr 3.2</title>
 </head>
+
 <body>
-    
+    <form action="results.html" method="get">
+        <div>
+            <label for="firstname">Voornaam</label>
+            <input name="firstname" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+        </div>
+        <div>
+            <label for="surname">Achternaam</label>
+            <input name="surname" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+        </div>
+        <div>
+            <label for="gender">Geslacht:</label>
+            <label for="gender">Man</label>
+            <input type="radio" name="gender" checked>
+
+            <label for="gender">Vrouw</label>
+            <input type="radio" name="gender">
+
+            <label for="gender">Overig</label>
+            <input type="radio" name="gender">
+        </div>
+        <div>
+            <label>
+                Straat met huisnummer
+                <input type="text" name="housenumber">
+            </label>
+        </div>
+        <div>
+            <label>
+                Postcode
+                <input type="text" name="Postcode" id="Postcode">
+            </label>
+        </div>
+        <div>
+            <label>
+                Stad
+                <input type="text" name="stad" id="Postcode">
+            </label>
+        </div>
+        <div>
+            <label>
+                Land
+                <input type="text">
+            </label>
+        </div>
+        <div>
+            <label>
+                BSN-nummer
+                <input type="text" maxlength="9" name="bsn" id="bsn">
+            </label>
+        </div>
+        <div>
+            <label for="holiday">Vakantieland:</label>
+            <select name="holiday" id="holiday">
+                <option value="England">England</option>
+                <option value="Iceland">Iceland</option>
+                <option value="Greenland">Greenland</option>
+                Vakantieland:
+        </div>
+        <div>
+            <label for="#">#</label>
+            <input type="#">
+        </div>
+        <div>
+            <label for="date_leaving">Datum van vertrek</label>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <label for="date_returning">Datum van terugkomst</label>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <label for="travelbuds">Aantal reisgenoten</label>
+            <input type="number" min="1" max="4">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="password">
+                Password
+                <input type="password">
+            </label>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Boek nu</button>
+    </form>
 </body>
+
 </html>
