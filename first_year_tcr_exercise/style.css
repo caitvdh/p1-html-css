@@ -8,6 +8,22 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hacker_background {
+  background-image: url(./img/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+}
+
+.java_mysql {
+  background-color: black;
+  color: white;
 }
 
 nav {
@@ -36,4 +52,20 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+footer {
+  flex: 1 100%;
+}
+
+.footer_container {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+  background: #00a8c7;
+  position: absolute;
+  color: white;
 }
