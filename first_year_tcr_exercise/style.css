@@ -8,11 +8,11 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
-
 .hacker_background {
   background-image: url(./img/background.jpeg);
   background-size: cover;
@@ -20,12 +20,10 @@ body {
   height: 90vh;
   width: 100vw;
 }
-
 .java_mysql {
   background-color: black;
   color: white;
 }
-
 nav {
   display: flex;
   width: 100%;
@@ -36,6 +34,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 nav ul {
   display: flex;
@@ -53,19 +53,36 @@ nav a {
 nav img {
   width: 5vw;
 }
-
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5vh;
+}
+.java_sql {
+  float: right;
+}
+.php_html {
+  float: left;
+}
+.what_is_ {
+  text-align: left;
+  margin: 5vh 10vw 5vh 10vw;
+  font-size: large;
+}
 footer {
   flex: 1 100%;
+  text-align: center;
+  justify-content: center;
 }
-
 .footer_container {
   width: 100%;
   left: 0;
-  bottom: 0;
   text-align: center;
   padding: 2rem;
-  margin-top: auto;
   background: #00a8c7;
   position: absolute;
   color: white;
+  display: flex;
+  position: absolute;
+  bottom: 0;
 }
