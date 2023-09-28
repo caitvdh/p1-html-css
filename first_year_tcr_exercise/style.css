@@ -96,7 +96,7 @@ ul .dropdown li a {
 }
 .java_sql {
   float: right;
-  margin: 0vh 10vw 10vh 10vw;
+  margin: 0vh 10vw 10vh 10vw; 
 }
 .php_html {
   float: left;
