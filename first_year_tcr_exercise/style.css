@@ -54,7 +54,7 @@ nav img {
   width: 5vw;
 }
 ul li ul.dropdown li {
-  display: block;
+  display: flex;
   color: #00a8c7;
 }
 ul li ul.dropdown {
@@ -79,6 +79,7 @@ ul .dropdown li a {
 }
 .firstline {
   text-align: center;
+  color: white;
   font-size: 90px;
   margin: 20vh 15vw 10vh 15vw;
 }
