@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    overflow: hidden;
+}
+.logo {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-items: center;
+    margin-right: auto;
+}
+li, a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+header {
+    background-color: #131c27;
+    height: 100px;
+}
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 35px;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 90px;
+}
+.container {
+    overflow-y: scroll;
+    height: 100vh;
+}
+section {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    scroll-snap-align: start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.one {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("./img/landing-page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.travel {
+    font-weight: bold;
+    padding-top: 250px;
+}
+.travel-text {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.book-now {
+    display: flex;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    background-color: #4c6e97;
+    color: white;
+    margin-top: 90px;
+    padding: 15px 40px;
+    border: none;
+}
+.two { 
+    background-image:
+    linear-gradient(to bottom, rgba(92, 92, 92, 0.5), rgba(255, 255, 255, 0)),
+    url(./img/new-york-page.png);
+}
+.explore {
+    padding: 300px 50px 30px 90px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+.explore-text {
+    font-size: 30px;
+    padding: 0px 50px 30px 90px;
+}
+.explore, .explore-text {
+    display: flex;
+    justify-content: start;
+}
+.three {
+    background-color: #131c27; 
+}
+.experience {
+    padding-top: 20px;
+}
+.experience-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.boxes {
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 50px 150px 200px 150px;
+}
+img {
+    background-color: #131c27;
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+}
+.travels, .flights {
+    height: 600px;
+    background: linear-gradient(#131c27 15%, #131c27 0%, white 0%, white 0%);
+    box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.hotels {
+    height: 600px;
+    background: linear-gradient(#131c27 15%, #131c27 0%, white 0%, white 0%);
+    margin: 0px 70px 0px 70px;
+    box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h2 {
+    font-size: 30px;
+    padding: 60px 0px 50px 0px;
+}
+.lorem {
+    font-size: 20px;
+    padding: 30px;
+}
+.four {
+    background-image:
+    linear-gradient(to bottom, rgba(92, 92, 92, 0.5), rgba(255, 255, 255, 0)),
+    url(./img/contact-mountain.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.form {
+    background: rgb(19, 28, 39, 0.8);
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    height: 500px;
+    width: 100%;
+    width: 1100px;
+    border-radius: 20px;
+}
+.name {
+    margin-left: 313px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.email {
+    margin-left: 320px;
+    font-size: 22px;
+}
+.form input {
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background: white;
+    font-size: 30px;
+    color: black;
+}
+.form button {
+    border: 0;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    background: #4c6e97;
+    font-size: 24px;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 94px;
+}
+footer {
+    background-color: #131c27;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    min-height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.copyright {
+    margin-right: 750px;
+}
+.footerimg {
+    margin-top: 10px;
+    max-height: 55px;
+    max-width: 55px;
+}
